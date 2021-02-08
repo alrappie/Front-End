@@ -1,0 +1,229 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+	font: 16px/28px arial, sans-serif;
+	background-color: #FFE4E1;
+	color: #333;
+	background-image: url(../photos/skyandgrass.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/*clear fix*/
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+/*style*/
+.topbar{
+	position: fixed;
+	top:0;
+	left: 0;
+	right: 0;
+	background-color: #DCDCDC;
+	z-index: 9999;
+}
+.topbar p{
+	margin-left: 340px;
+	text-align: left;
+}
+.twitter{
+	width: 50px;
+	height: 50px;
+	background-image: url(../photos/logos3baru.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	text-indent: -9999px;
+	position: absolute;
+	top:0px;
+	left: 600px;
+}
+.instagram{
+	width: 50px;
+	height: 50px;
+	background-image: url(../photos/instalogo.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	text-indent: -9999px;
+	position: absolute;
+	top:2px;
+	left: 640px;
+}
+.facebook{
+	width: 50px;
+	height: 50px;
+	background-image: url(../photos/fblogo.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	text-indent: -9999px;
+	position: absolute;
+	top:-10px;
+	left: 665px;
+}
+
+.container{
+	width: 960px;
+	margin: auto;
+	margin-top: 30px;
+	background-color: #F5F5F5;
+	position: relative;
+}
+.header{
+	padding: 20px;
+}
+.header .judul{
+	font-size: 40px;
+	font-weight: bold;
+}
+.header ul li {
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 1px;
+}
+.header ul li a{
+	text-decoration: none;
+	color: #DAA520;
+	padding: 3px;
+	font-size: 16px;
+	border: 2px groove #F08080;
+}
+.header ul li a:hover{
+	background-color: #DCDCDC;
+	color: #fff;
+}
+
+.hero{
+	height: 350px;
+	background-image: url(../photos/landscape.png);
+	background-size: cover;
+	background-position: 0 -180px;
+	border-top: 4px solid #4B0082;
+	border-bottom: 4px solid #40E0D0;
+}
+.main{
+	padding: 20px;
+	width: 600px;
+	box-sizing: border-box;
+	float: left;
+}
+.main h2{
+	font-size: 26px;
+	font-weight: bold;
+}
+.main .penulis{
+	font-size: 12px;
+	margin-top: -4px;
+}
+.main .penulis a{
+	color: #5F9EA0;
+}
+.main p{
+	margin-top: 20px;
+	font-size: 14px;
+	text-align: justify;
+}
+.sidebar{
+	width: 300px;
+	color: #666;
+	box-sizing: border-box;
+	float: right;
+	padding: 20px;
+	font: 12px/16px arial,sans-serif;
+}
+.sidebar1{
+	height: 180px;
+	overflow: scroll;
+	margin-bottom: 20px;
+}
+.sidebar1 h3{
+	font-weight: bold;
+	font-size: 17px;
+	margin-bottom: 5px;
+}
+.sidebar1 img{
+	width: 150px;
+	height: 80px;
+	float: left;
+	padding-right: 10px;
+}
+.sidebar1 p {
+	text-align: justify;
+}
+.sidebar2 img{
+	width: 250px;
+	height: 120px;
+}
+.sidebar2 h3{
+	font-weight: bold;
+	font-size: 17px;
+	margin-bottom: 10px; 
+}
+.sidebar2 p{
+	overflow: scroll;
+	height: 100px;
+	text-align: justify;
+}
+
+.footer{
+	background-color: #000;
+}
+.footer .copyright{
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+}
